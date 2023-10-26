@@ -1,0 +1,55 @@
+<form [formGroup]="form" (submit)="aceptar()">
+    <div class="frame-33">
+        <div class="component">
+            <div class="rectangle-100">
+            </div>
+            <img class="image-163" src="../../../../assets/image163.png" />
+            <div class="reporte-imagen">
+                TAEDD GRUPO 3
+            </div>
+            <img class="image-164" src="../../../../assets/image163.png" />
+            <img class="image-165" src="../../../../assets/image165.png" />
+            <div class="registrarse">
+                REGISTRARSE
+            </div>
+            <div class="rectangle-101">
+            </div>
+            <div class="rectangle-107">
+            </div>
+            <div class="rectangle-107">
+                <img [src]="imageUrl" alt="Imagen" style="width: 100%; height: 100%;" />
+              </div>              
+            <div class="rectangle-108">
+            </div>
+            <div class="generar">
+                Generar
+            </div>
+            <div class="listado">
+                <a routerLink="/images/listado">Listado</a>
+            </div>
+
+            <div class="rectangle-104">
+            </div>
+            <div class="rectangle-105">
+            </div>
+            <div class="rectangle-106">
+            </div>
+            <div class="reporte-imagen2">
+                REPORTE IMAGEN
+            </div>
+            <div class="id">
+                <label for="id">ID (Automático)</label>
+                <input formControlName="id" type="hidden" id="id">
+              </div>              
+              <div class="nombre-de-la-imagen">
+                <label for="nameImage"></label>
+                <input formControlName="nameImage" type="text" id="nameImage" placeholder="Nombre de la imagen">
+            </div>
+            <div class="url-de-la-imagen">
+                <label for="urlImage"></label>
+                <input formControlName="urlImage" type="text" id="urlImage" placeholder="URL de la imagen">
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="generar">Generar</button>
+</form>

@@ -1,0 +1,250 @@
+.frame-33, .frame-33 * {
+    box-sizing: border-box;
+    }
+.frame-33 {
+   width: 1331px;
+    height: 923px;
+    position: relative;
+   }
+
+.component {
+   width: 1331px;
+    height: 923px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.rectangle-100 {
+   background: #d9d9d9;
+    width: 477px;
+    height: 728px;
+    position: absolute;
+    left: 405px;
+   top: 126px;
+   }
+
+.image-163 {
+   width: 1920px;
+    height: 58px;
+    position: absolute;
+    left: 0px;
+   top: 0px;
+   }
+
+.reporte-imagen {
+   color: #ffffff;
+    text-align: left;
+    font: 400 40px 'Poppins', sans-serif;
+    position: absolute;
+    left: 24px;
+   top: 0px;
+    width: 331px;
+    height: 51px;
+   }
+
+.image-164 {
+   width: 1331px;
+    height: 865px;
+    position: absolute;
+    left: 0px;
+   top: 58px;
+   }
+
+   .image-165 {
+      width: 1920px; /* Ancho de pantalla */
+      height: 1080px;
+      position: absolute;
+      left: 0px;
+      top: 51px;
+  }
+  
+
+.registrarse {
+   color: #000000;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 433px;
+   top: 165px;
+   }
+
+.rectangle-101 {
+   background: #f7ff97;
+    border-radius: 46px;
+    width: 558px;
+    height: 405px;
+    position: absolute;
+    left: 369px;
+   top: 64px;
+   }
+
+.rectangle-107 {
+   background: #ffffff;
+    border-radius: 46px;
+    width: 1280px;
+    height: 405px;
+    position: absolute;
+    left: 24px;
+   top: 490px;
+   }
+
+.rectangle-102 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 433px;
+   top: 410px;
+   }
+
+.rectangle-108 {
+   background: linear-gradient(to left, rgba(163, 146, 146, 0.20), rgba(163, 146, 146, 0.20)), linear-gradient(to left, #ff9a00, #ff9a00);
+    border-radius: 50px;
+    width: 132px;
+    height: 31px;
+    position: absolute;
+    left: 682px;
+   top: 410px;
+   }
+
+.generar {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 440px;
+   top: 415px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.listado {
+   color: #ffffff;
+    text-align: center;
+    font: 600 16px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 689px;
+   top: 415px;
+    width: 118.94px;
+    height: 21.14px;
+   }
+
+.rectangle-104 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 425px;
+   top: 222px;
+   }
+
+.rectangle-105 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 425px;
+   top: 132px;
+   }
+
+.rectangle-106 {
+   background: #fdbd4e;
+    border-radius: 22px;
+    width: 424px;
+    height: 75px;
+    position: absolute;
+    left: 425px;
+   top: 312px;
+   }
+
+.reporte-imagen2 {
+   color: #000000;
+    text-align: center;
+    font: 600 40px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 468px;
+   top: 77px;
+   }
+
+.id {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 450px;
+   top: 157px;
+   }
+
+.nombre-de-la-imagen {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 439px;
+   top: 240px;
+   }
+
+.url-de-la-imagen {
+   color: #000000;
+    text-align: center;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 439px;
+   top: 335px;
+   }
+   .nombre-de-la-imagen, .url-de-la-imagen {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 10px; /* Ajusta el margen inferior según tu preferencia */
+  }
+  
+  .nombre-de-la-imagen label, .url-de-la-imagen label {
+      align-self: flex-start;
+  }
+  
+  .nombre-de-la-imagen input, .url-de-la-imagen input {
+      width: 100%;
+      padding: 5px; /* Ajusta el relleno según tu preferencia */
+  }
+  /* Estilo para el botón "Generar" */
+/* Estilo para el botón "Generar" */
+/* Estilo para el botón "Generar" */
+.generar {
+   background-color: orange; /* Fondo naranja */
+   color: blue; /* Texto azul */
+   border: none; /* Sin borde */
+   padding: 10px 20px; /* Ajusta el relleno según tus preferencias */
+   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+   border-radius: 5px; /* Borde redondeado */
+   font-size: 16px; /* Tamaño de fuente */
+   text-decoration: underline; /* Subrayado del texto */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* Cambiar color del texto cuando se pasa el cursor sobre el botón */
+.generar:hover {
+   color: red; /* Cambia el color de texto a rojo al pasar el cursor */
+   text-decoration: none; /* Quita el subrayado al pasar el cursor */
+}
+/* Estilo para hacer que el enlace "Listado" se vea igual al botón "Generar" */
+.listado {
+   background: none; /* Fondo transparente */
+   border: none; /* Sin borde */
+   padding: 0; /* Sin relleno */
+   cursor: pointer; /* Cambia el cursor al pasar sobre el enlace */
+   text-decoration: underline; /* Subrayado del texto */
+   font-size: 16px; /* Tamaño de fuente */
+   color: blue; /* Color del texto */
+}
+
+/* Cambiar color del texto cuando se pasa el cursor sobre el enlace "Listado" */
+.listado:hover {
+   color: red; /* Cambia el color de texto a rojo al pasar el cursor */
+}

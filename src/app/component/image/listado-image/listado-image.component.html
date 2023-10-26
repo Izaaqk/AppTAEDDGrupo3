@@ -1,0 +1,39 @@
+<div class="section-34">
+    <div class="rectangle-109"></div>
+    <img class="image-166" src="../../../../assets/image163.png" />
+    <div class="listado-imagen">LISTADO IMAGEN</div>
+    <img class="image-167" src="../../../../assets/image165.png" />
+    <img class="image-168" src="../../../../assets/image165.png" />
+    <div class="registrarse">REGISTRARSE</div>
+    <div class="rectangle-110"></div>
+    <div class="rectangle-115"></div>
+    <div class="listado-imagen2">LISTADO IMAGEN</div>
+    <div class="id">Id</div>
+  
+    <div *ngFor="let image of images; let i = index" class="list-item">
+      <div class="textoid-{{i + 1}}">{{ image.id }}</div>
+      <div class="textonom-{{i + 1}}">{{ image.nameImage }}</div>
+      <input type="text" class="textourl-{{i + 1}}" [value]="image.urlImage" readonly>
+    </div>
+  
+    <div class="nombre-de-la-imagen">Nombre de la imagen</div>
+    <div class="url-de-la-imagen">URL de la imagen</div>
+    <div class="imagen">Imagen</div>
+    <div class="rectangle-116"></div>
+    <div class="atras">
+      <a routerLink="/images/reporte">Atrás</a>
+    </div>
+    <div class="rectangle-116"></div>
+    <div class="rectangle-117"></div>
+    <div class="rectangle-118"></div>
+    <div class="rectangle-119"></div>
+    <div class="rectangle-120"></div>
+    <div class="rectangle-121"></div>
+    <div class="rectangle-122"></div>
+    <div class="rectangle-123"></div>
+    <div class="rectangle-124"></div>
+    <div class="rectangle-125"></div>
+    <div *ngFor="let image of images; let i = index" class="rectangle-{{116 + i}}">
+      <img [src]="image.urlImage" alt="Imagen" style="width: 100%; height: 100%;" />
+    </div>
+  </div>
